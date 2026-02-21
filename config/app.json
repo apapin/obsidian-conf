@@ -1,0 +1,31 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "fileSortOrder": "alphabetical",
+  "defaultViewMode": "source",
+  "foldHeading": true,
+  "strictLineBreaks": true,
+  "foldIndent": true,
+  "attachmentFolderPath": "zExtras/Media",
+  "livePreview": true,
+  "legacyEditor": false,
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "tabSize": 6,
+  "readableLineLength": true,
+  "spellcheck": false,
+  "newFileLocation": "root",
+  "userIgnoreFilters": [
+    "zExtras/"
+  ],
+  "mobileToolbarCommands": [
+    "editor:attach-file",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:configure-toolbar"
+  ],
+  "mobileQuickRibbonItem": "zk-prefixer:Create new unique note"
+}

@@ -1,12 +1,11 @@
-# Capricorn
+# obsidian-conf
 
-A shared Obsidian theme with per-vault color palettes.
-
-The theme handles fonts, sizes, and weights. Each vault gets a small `colors.css` snippet for its unique palette.
+Shared Obsidian configuration across all vaults.
 
 ## Structure
 
 ```
+config/           # Shared settings (hotkeys, plugins, etc.)
 theme.css         # Shared fonts & sizing (Sentinel, Avenir Next, IBM Plex Mono)
 manifest.json     # Obsidian theme manifest
 colors/
@@ -15,18 +14,18 @@ colors/
   night-owl.css   # Deep purple, pink, blue
   kleja.css       # Dark red-brown, orange, copper
   acolyte.css     # Warm brown, burnished gold, sage
-deploy.sh         # Deploy theme + snippets to all vaults
+deploy.sh         # Deploy everything to all vaults
 ```
 
 ## Usage
 
-Edit `theme.css` or any `colors/*.css`, then run:
+Edit any file, then run:
 
 ```sh
 ./deploy.sh
 ```
 
-This copies the theme and the matching color snippet to each vault.
+This copies config, theme, and the matching color snippet to each vault.
 
 ## Adding a new vault
 
