@@ -22,6 +22,10 @@ for color vault in "${(@kv)VAULTS}"; do
   # Deploy shared config
   cp "$DIR"/config/*.json "$vault/.obsidian/"
 
+  # Ensure scaffold folders and templates exist
+  mkdir -p "$vault/Stream" "$vault/zExtras/Media" "$vault/zExtras/Templates"
+  cp -n "$DIR"/scaffold/zExtras/Templates/*.md "$vault/zExtras/Templates/" 2>/dev/null || true
+
   # Deploy theme
   mkdir -p "$vault/.obsidian/themes/Capricorn"
   cp "$DIR/theme.css" "$DIR/manifest.json" "$vault/.obsidian/themes/Capricorn/"
