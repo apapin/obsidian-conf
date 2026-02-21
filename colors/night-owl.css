@@ -1,0 +1,28 @@
+/* Capricorn Colors: Night Owl */
+
+body {
+  --text-on-accent: white;
+  --nav-item-color: #c792ea;
+  --tab-outline-color: rgba(199, 146, 234, 0.593);
+}
+
+.theme-dark {
+  --background-primary: #130c18;
+  --background-primary-alt: #1b1222;
+  --background-secondary: black;
+  --background-secondary-alt: #1b1222;
+
+  --text-normal: white;
+  --text-muted: #c792ea;
+  --text-faint: rgba(199, 146, 234, 0.593);
+
+  --link-color: #ffeb95;
+  --link-external-color: #ffeb95;
+  --blockquote-border-color: #ffeb95;
+  --list-marker-color: #7fdbca;
+
+  --color-h1: #ff79c6;
+  --color-h2: #82aaff;
+  --color-h3: #c5e478;
+  --inline-title-color: #ff79c6;
+}

@@ -1,0 +1,46 @@
+/* Capricorn — shared fonts, sizes & weights */
+
+body {
+  --font-interface-override: "IBM Plex Mono", menlo, SFMono-Regular, Consolas, monospace;
+  --font-text-override: "Avenir Next", menlo, SFMono-Regular, Consolas, monospace;
+  --font-monospace-override: "IBM Plex Mono", menlo, SFMono-Regular, Consolas, monospace;
+  --inline-title-font: "Sentinel";
+  --h1-font: "Sentinel";
+  --h2-font: "Sentinel";
+  --h3-font: "Sentinel";
+  --h4-font: "Sentinel";
+  --h5-font: "Sentinel";
+  --h6-font: "Sentinel";
+}
+
+:root {
+  --font-normal: 18px;
+  --font-small: 14px;
+  --font-smaller: 12px;
+  --font-smallest: 10px;
+
+  --h1-size: 2.2em;
+  --h2-size: 1.6em;
+  --h3-size: 1em;
+  --h4-size: 0.9em;
+  --h5-size: 0.85em;
+  --h6-size: 0.85em;
+
+  --h1-weight: 600;
+  --h2-weight: 600;
+  --h3-weight: 500;
+  --h4-weight: 500;
+  --h5-weight: 500;
+  --h6-weight: 400;
+
+  --normal-weight: 400;
+  --bold-weight: 600;
+  --line-width: 40rem;
+  --line-height: 1.5;
+  --max-width: 88%;
+  --nested-padding: 3.5%;
+  --icon-muted: 0.4;
+  --border-width: 1px;
+  --border-width-alt: 1px;
+  --tab-stacked-font-size: 30px;
+}

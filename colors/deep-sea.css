@@ -1,0 +1,36 @@
+/* Capricorn Colors: Deep Sea */
+
+body {
+  --text-on-accent: white;
+  --nav-item-color: #a8dadc;
+  --tab-outline-color: rgba(168, 218, 220, 0.593);
+}
+
+.theme-dark {
+  --background-primary: #0d1b2a;
+  --background-primary-alt: #1b263b;
+  --background-secondary: #0d1b2a;
+  --background-secondary-alt: #152238;
+  --background-modifier-border: #415a77;
+  --background-modifier-cover: #0a1520;
+  --ribbon-background: #0a1520;
+
+  --text-normal: white;
+  --text-muted: #a8dadc;
+  --text-faint: rgba(168, 218, 220, 0.593);
+  --text-accent: #457b9d;
+  --text-accent-hover: #5a9ac0;
+
+  --link-color: #e63946;
+  --link-external-color: #e63946;
+  --blockquote-border-color: #778da9;
+  --list-marker-color: #457b9d;
+
+  --interactive-accent: #1d3557;
+  --interactive-accent-hover: #2a4a6d;
+
+  --color-h1: #e63946;
+  --color-h2: #457b9d;
+  --color-h3: #f4d35e;
+  --inline-title-color: #e63946;
+}

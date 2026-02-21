@@ -1,0 +1,36 @@
+/* Capricorn Colors: Arctic */
+
+body {
+  --text-on-accent: #1e2329;
+  --nav-item-color: #bdc3c7;
+  --tab-outline-color: rgba(189, 195, 199, 0.593);
+}
+
+.theme-dark {
+  --background-primary: #1e2329;
+  --background-primary-alt: #2c3e50;
+  --background-secondary: #1e2329;
+  --background-secondary-alt: #252d35;
+  --background-modifier-border: #4a5568;
+  --background-modifier-cover: #161a1f;
+  --ribbon-background: #161a1f;
+
+  --text-normal: white;
+  --text-muted: #bdc3c7;
+  --text-faint: rgba(189, 195, 199, 0.593);
+  --text-accent: #74b9ff;
+  --text-accent-hover: #a3d1ff;
+
+  --link-color: #74b9ff;
+  --link-external-color: #74b9ff;
+  --blockquote-border-color: #dfe6e9;
+  --list-marker-color: #a29bfe;
+
+  --interactive-accent: #34495e;
+  --interactive-accent-hover: #4a6278;
+
+  --color-h1: #74b9ff;
+  --color-h2: #bdc3c7;
+  --color-h3: #a29bfe;
+  --inline-title-color: #74b9ff;
+}

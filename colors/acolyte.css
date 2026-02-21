@@ -1,0 +1,36 @@
+/* Capricorn Colors: Acolyte */
+
+body {
+  --text-on-accent: white;
+  --nav-item-color: #d4c5a9;
+  --tab-outline-color: rgba(212, 197, 169, 0.5);
+}
+
+.theme-dark {
+  --background-primary: #1a1510;
+  --background-primary-alt: #262015;
+  --background-secondary: #1a1510;
+  --background-secondary-alt: #201b12;
+  --background-modifier-border: #4a3f2e;
+  --background-modifier-cover: #110e0a;
+  --ribbon-background: #110e0a;
+
+  --text-normal: #e8e0d4;
+  --text-muted: #d4c5a9;
+  --text-faint: rgba(212, 197, 169, 0.5);
+  --text-accent: #c9a84c;
+  --text-accent-hover: #dbb960;
+
+  --link-color: #d4a253;
+  --link-external-color: #d4a253;
+  --blockquote-border-color: #7d9b76;
+  --list-marker-color: #7d9b76;
+
+  --interactive-accent: #3a2e1e;
+  --interactive-accent-hover: #4d3f2a;
+
+  --color-h1: #c9a84c;
+  --color-h2: #7d9b76;
+  --color-h3: #c07850;
+  --inline-title-color: #c9a84c;
+}

@@ -1,0 +1,36 @@
+/* Capricorn Colors: Kleja */
+
+body {
+  --text-on-accent: white;
+  --nav-item-color: #e07a3d;
+  --tab-outline-color: rgba(224, 122, 61, 0.593);
+}
+
+.theme-dark {
+  --background-primary: #1e1115;
+  --background-primary-alt: #402329;
+  --background-secondary: #1e1115;
+  --background-secondary-alt: #281418;
+  --background-modifier-border: #7b5a4a;
+  --background-modifier-cover: #351c21;
+  --ribbon-background: #201014;
+
+  --text-normal: white;
+  --text-muted: #e07a3d;
+  --text-faint: rgba(224, 122, 61, 0.593);
+  --text-accent: #58c7a7;
+  --text-accent-hover: #5ab2a2;
+
+  --link-color: #ffb895;
+  --link-external-color: #ffb895;
+  --blockquote-border-color: #ffb895;
+  --list-marker-color: #7fcadb;
+
+  --interactive-accent: #0d4382;
+  --interactive-accent-hover: #3c6da6;
+
+  --color-h1: #e07a3d;
+  --color-h2: #82d4ff;
+  --color-h3: #e4c578;
+  --inline-title-color: #e07a3d;
+}
